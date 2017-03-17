@@ -57,15 +57,7 @@ h2 {
 
 }
 
-a {
-  color: #9db2b6;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #66848B;
-  text-decoration: none;
-}
+
 .about {
 	
 	background: url(../img/sealion.jpg) no-repeat center center scroll; 
@@ -76,4 +68,27 @@ a:focus {
 .about .container {
 	color: rgba (0,0,0, 9);
 }
+.navbar {
+	text-align: center;
 
+}
+	.navbar .container {
+		display: initial;
+	}
+	.navbar a{
+		color: #fff;
+		margin: 5px;
+
+	}
+
+
+a {
+  color: #9db2b6;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #66848B;
+  text-decoration: none;
+  cursor: pointer;
+}
